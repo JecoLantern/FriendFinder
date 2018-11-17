@@ -1,4 +1,4 @@
-jQuery(document).ready(function(){
+$(document).ready(function(){
     var questions = [
         'I have a vivid imagination.',
         'I make friends easily.',
@@ -79,7 +79,7 @@ jQuery(document).ready(function(){
         select.attr('id', 'select' + i);
         dropDown.append(select);
         item.append(headline, questionText, dropDown);
-        var br = $('<br');
+        var br = $('<br>');
         questionDiv.append(item, br);
     });
 
