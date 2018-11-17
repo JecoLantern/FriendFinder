@@ -4,6 +4,7 @@ This application is based on Node and Express that matches users based on person
 Note: This is a first attempt to deploy the application to Heroku.
 
 ## Deployed Link
+https://friend-finder-by-jecolantern.herokuapp.com/
 
 ## Required
 - npm install

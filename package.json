@@ -1,5 +1,5 @@
 {
-  "name": "FriendFinder",
+  "name": "friend-finder",
   "version": "1.0.0",
   "description": "This application is based on Node and Express that matches users based on personality test. The test contains 50 questions answerable by 1(Strongly Disagree) to 5(Strongly Agree).",
   "main": "server.js",
