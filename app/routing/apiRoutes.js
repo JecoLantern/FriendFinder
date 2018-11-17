@@ -20,7 +20,7 @@ module.exports = function(app) {
                 }
                 differences.push(totalDifference);
             });
-            var minimumDifference = MAth.min.apply(null, differences);
+            var minimumDifference = Math.min.apply(null, differences);
             var bestMatches = [];
             for (var i=0; i<differences.length; i++) {
                 if (differences[i] === minimumDifference) {
